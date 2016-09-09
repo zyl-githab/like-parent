@@ -20,11 +20,7 @@
 		<maven-war-plugin.version>2.3</maven-war-plugin.version>
 		<maven-compiler-plugin.vserion>3.1</maven-compiler-plugin.vserion>
 	</properties>
-	<modules>
-		<module>bzn-fundamental</module>
-		<module>bzn-open</module>
-		<module>bzn-dock</module>
-	</modules>
+	
 	<dependencyManagement>
 		<dependencies>
 			<!-- commons -->
