@@ -118,7 +118,8 @@
 				<artifactId>cglib</artifactId>
 				<version>3.2.4</version>
 			</dependency>
-			
+
+			<!-- logback -->
 			<dependency>
 				<groupId>ch.qos.logback</groupId>
 				<artifactId>logback-core</artifactId>
@@ -133,7 +134,8 @@
 				<groupId>org.logback-extensions</groupId>
 				<artifactId>logback-ext-spring</artifactId>
 				<version>0.1.4</version>
-			</dependency><dependency>
+			</dependency>
+			<dependency>
 				<groupId>ch.qos.logback</groupId>
 				<artifactId>logback-core</artifactId>
 				<version>1.1.7</version>
@@ -701,6 +703,22 @@
 				<groupId>net.sourceforge.jexcelapi</groupId>
 				<artifactId>jxl</artifactId>
 				<version>2.6.12</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.kafka</groupId>
+				<artifactId>kafka_2.10</artifactId>
+				<version>0.10.0.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.kafka</groupId>
+				<artifactId>kafka-clients</artifactId>
+				<version>0.10.0.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.integration</groupId>
+				<artifactId>spring-integration-kafka</artifactId>
+				<version>2.0.1.RELEASE</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
