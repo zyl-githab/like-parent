@@ -130,21 +130,7 @@
 				<artifactId>logback-ext-spring</artifactId>
 				<version>0.1.4</version>
 			</dependency>
-			<dependency>
-				<groupId>ch.qos.logback</groupId>
-				<artifactId>logback-core</artifactId>
-				<version>1.1.7</version>
-			</dependency>
-			<dependency>
-				<groupId>ch.qos.logback</groupId>
-				<artifactId>logback-classic</artifactId>
-				<version>1.1.7</version>
-			</dependency>
-			<dependency>
-				<groupId>org.logback-extensions</groupId>
-				<artifactId>logback-ext-spring</artifactId>
-				<version>0.1.4</version>
-			</dependency>
+			
 
 			<!-- jackson -->
 			<dependency>
@@ -329,11 +315,6 @@
 				<artifactId>libthrift</artifactId>
 				<version>0.9.3</version>
 			</dependency>
-			<dependency>
-				<groupId>org.apache.curator</groupId>
-				<artifactId>curator-recipes</artifactId>
-				<version>2.11.0</version>
-			</dependency>
 
 			<!-- zookeeper -->
 			<dependency>
@@ -479,12 +460,6 @@
 				<version>2.23.2</version>
 			</dependency>
 
-			<dependency>
-				<groupId>commons-logging</groupId>
-				<artifactId>commons-logging</artifactId>
-				<version>1.2</version>
-			</dependency>
-
 			<!-- httpclient -->
 			<dependency>
 				<groupId>org.apache.httpcomponents</groupId>
@@ -535,11 +510,6 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-			<dependency>
-				<groupId>org.apache.activemq</groupId>
-				<artifactId>activemq-pool</artifactId>
-				<version>5.13.2</version>
-			</dependency>
 
 			<dependency>
 				<groupId>de.ruedigermoeller</groupId>
@@ -584,18 +554,6 @@
 				<groupId>com.facebook.jcommon</groupId>
 				<artifactId>util</artifactId>
 				<version>0.1.20</version>
-			</dependency>
-
-			<dependency>
-				<groupId>org.apache.activemq</groupId>
-				<artifactId>activemq-core</artifactId>
-				<version>5.7.0</version>
-				<exclusions>
-					<exclusion>
-						<groupId>org.slf4j</groupId>
-						<artifactId>slf4j-api</artifactId>
-					</exclusion>
-				</exclusions>
 			</dependency>
 
 			<dependency>
