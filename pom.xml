@@ -637,12 +637,6 @@
 			</dependency>
 
 			<dependency>
-				<groupId>com.facebook.jcommon</groupId>
-				<artifactId>util</artifactId>
-				<version>0.1.20</version>
-			</dependency>
-
-			<dependency>
 				<groupId>org.xerial.snappy</groupId>
 				<artifactId>snappy-java</artifactId>
 				<version>1.1.2.6</version>
@@ -727,6 +721,13 @@
 				<groupId>com.thetransactioncompany</groupId>
 				<artifactId>java-property-utils</artifactId>
 				<version>1.10</version>
+			</dependency>
+			
+			<!-- 二维码 -->
+			<dependency>
+				<groupId>com.google.zxing</groupId>
+				<artifactId>core</artifactId>
+				<version>3.3.0</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
