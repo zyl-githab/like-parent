@@ -130,7 +130,7 @@
 				<artifactId>logback-ext-spring</artifactId>
 				<version>0.1.4</version>
 			</dependency>
-			
+
 
 			<!-- jackson -->
 			<dependency>
@@ -642,11 +642,16 @@
 				<artifactId>java-property-utils</artifactId>
 				<version>1.10</version>
 			</dependency>
-			
+
 			<!-- 二维码 -->
 			<dependency>
 				<groupId>com.google.zxing</groupId>
 				<artifactId>core</artifactId>
+				<version>3.3.0</version>
+			</dependency>
+			<dependency>
+				<groupId>com.google.zxing</groupId>
+				<artifactId>javase</artifactId>
 				<version>3.3.0</version>
 			</dependency>
 		</dependencies>
